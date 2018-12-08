@@ -1,0 +1,147 @@
+<!-- Boilerplate code prefiles your initiual website with a brief starter code by simply typing HTML on the first line --!>
+<!-- meta elements include 'charset' in this case utf-8 character standard. Always use unicode or utf-8 for your character encoding --!>
+<!-- meta also include description which gives a short description of the website when searched on line
+charset="UTF-8" name="description" content="Free Web tutorials" name="keywords" content="HTML,CSS,XML,JavaScrip name="author" content="John Doe">
+-->
+
+<!-- Use Atom Packages Beautify to Beautify your code -->
+
+<!-- The style of your text is under formating anf requires a separate tad for each formating style. Ex,--> <b> bold text </b> <br><i>Italicised Text</i><br> <strong>Strong text</strong><br> <em>emphasised text</em> <br><sub>subscript text</sub> <br><sup>superscript
+  ></sup>
+<!-- Bold and Strong are the same. Use strong. --> <br> <!-- i tag and em tag are the same but use em. -->
+
+<hr size="2" color="green">
+<!--for horizontal line or rule-->
+
+
+<!--An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.
+
+The list items will be marked with bullets (small black circles) by default:-->
+<ul>
+  <li>i did this</li>
+  <li>i did Teachings</li>
+</ul>
+<!-- for an ordered list of 1,2,3 or a, b, c, you use <ol>
+for ordered list -->
+<ol>
+  <li>Golf</li>
+  <li>Music Making</li>
+</ol>
+<br>
+
+<!-- and <img src="" alt=""> tag is a self closing tag used for adding an image-->
+<img src="https://cdn.cnn.com/cnnnext/dam/assets/181207100215-barr-nauert-split-exlarge-tease.jpg" alt="Ajokus Picture" width="50%" height="30%"><br>
+
+<!-- Hyperlinks and a tags. This is the a ref tag that uses the link and lext-->
+<a href="https://www.cnn.com"><h2>App Brewery</h2></a>
+<!--Watch the contents oand syntax of the a ref-->
+<!-- add the attribute called download in order for you to download instead of navigate. like so -->
+
+<p>Adding a Table Using the <Table>
+</Table> tags,inside the table tags are the 3 elements of a table namely the header, the body and the footer. th tags are used to create the colums of the header, tr for rows of body and td for colums of the body. tds aslo apply to footers. In the body tr tag
+ open only one row and you  now emnbed the tds with the date inside it.</p>
+
+
+<table>
+  <thead>
+    <th>Date</th>
+    <th>Work Performed</th>
+    <th>Comments</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2013 to 2019</td>
+      <td>Lead Researcher </td>
+      <td>Who cares</td>
+    </tr>
+    <tr>
+      <td>1977</td>
+      <td>Completion and Workover Engineer</td>
+      <td>I dont</td>
+    </tr>
+    <tr>
+      <td>1993 to 2004</td>
+      <td>Wasting time at Schlumberger</td>
+      <td>Waste</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <td>bulshit1</td>
+    <td>buldshit2</td>
+    <td>bulshit</td>
+  </tfoot>
+
+</table>
+
+<p>You can use tables nested in tables for from real shit. the table below is done usiung a 1 x 2 table (1 tr and 2 td). Each cell now has a 3x 2 table inside. Remember to use cell padding to add a little space to the elements of the inner tables.
+</p>
+<h3><strong>Skills</strong></h3>
+
+<table>
+  <tr>
+    <td>
+      <!--table 1-->
+      <table cellpadding="5">
+        <tr>
+          <td>iOS Development</td>
+          <td>XXX</td>
+        </tr>
+        <tr>
+          <td>Data Server</td>
+          <td>XXXXX</td>
+        </tr>
+        <tr>
+          <td>Logistics of Data</td>
+          <td>XXX</td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <!--table 2-->
+      <table cellpadding="5">
+        <tr>
+          <td>SQM Mapping</td>
+          <td>XXXXXX</td>
+        </tr>
+        <tr>
+          <td>INT integration</td>
+          <td>XXX</td>
+        </tr>
+        <tr>
+          <td>PHP Technology</td>
+          <td>XXXXX</td>
+        </tr>
+      </table>
+    </td>
+
+  </tr>
+
+</table>
+
+<h3>HTML FORMS</h3>
+
+Use the form tag to start the form. Important basic elementas are the label tag (gives a label name to the input requirement. This label is the displayed text to guide the user like "enter your password")  and input tag (defines input as text or checkbox or password or button etc etc )
+<p></p>
+
+<form class="" action="index.html" method="post">
+  <label for="">Your Name: </label>
+    <input type="text" name="" value=""><br>
+    <p></p>
+  <label for="">Are you 44-50 years old?: </label>
+   <input type="checkbox" name="" value=""><br>
+   <p></p>
+  <label for="">Please enter your email address: </label>
+    <input type="email" name="" value=""><br>
+    <p></p>
+  <label for="">Please choose a file to upload </label>
+      <input type="file" name="" value=""><br>
+      <p></p>
+  <label for="">Please enter your email address: </label>
+        <input type="date" name="" value=""><br>
+        <p></p>
+  <input type="submit" name="" >
+  <p></p>
+</form>
+<br>
+For now, lets explain "" thingy in the forms tag. <form  action="mailto:cajoku@gmail.com" method="post" enctype="text/plain">
+Remove the class "" for now, action means what action will happen when the submit button is clicked at the end of the form fill. here it sas to email it to cajoku@gmail.com using the METHOD of POST and the ENCTYPE is simply the encryption method to be applied. Thats all.
